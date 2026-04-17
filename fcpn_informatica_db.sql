@@ -392,6 +392,7 @@ CREATE TABLE `permanencia` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
   COMMENT='Años de permanencia de estudiantes en la carrera — Hoja: Permanencia';
 
+//Base de datos
 INSERT INTO `permanencia` (`anio_id`, `anio`, `p_1anio`, `p_2anios`, `p_3anios`, `p_4anios`, `p_5a6`, `p_7a9`, `p_10a11`, `p_mas11`) VALUES
 (1,  1992, 445, 281, 241, 292, 243, 153,  37,  12),
 (2,  1997, 396, 278, 231, 313, 446, 424, 141, 128),
